@@ -1,7 +1,7 @@
-//Archivos parciales
-@use 'components/menu';
+// Archivos parciales
 @use 'abstracts/fonts';
 @use 'abstracts/colors' as color;
+@use 'components/menu';
 
 .contenedor-principal {
     background: color.$azul-kuali;
