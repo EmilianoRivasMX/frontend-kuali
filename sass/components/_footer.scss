@@ -1,9 +1,12 @@
+//Archivos Parciales
 @use '../abstracts/colors' as color;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,300&display=swap");
 
 footer {
     background: linear-gradient(150deg, color.$negro-kuali 15%, color.$verde-kuali 80%);
     max-height: 300px;
     height: 300px;
+    font-family: 'Poppins', sans-serif;
     
     .presentacion-kuali {
         height: 75%;

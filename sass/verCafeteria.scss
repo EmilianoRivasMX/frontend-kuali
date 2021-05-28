@@ -1,0 +1,11 @@
+// Archivos parciales
+@use 'components/dashboard';
+@use 'abstracts/colors' as color;
+@use 'abstracts/fonts';
+
+.contenedor-principal {
+    width: 100%;
+    height: 100vh;
+    background: color.$negro-kuali;
+
+}
