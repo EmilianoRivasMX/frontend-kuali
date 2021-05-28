@@ -6,6 +6,10 @@
 .contenedor-principal {
     width: 100%;
     height: 100vh;
-    background: color.$negro-kuali;
+    background: color.$amarillo-kuali;
+
+    .titulo-principal{
+        color: color.$azul-kuali;
+    }
 
 }
