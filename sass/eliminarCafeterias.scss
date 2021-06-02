@@ -2,3 +2,33 @@
 @use 'components/dashboard';
 @use 'abstracts/colors' as color;
 @use 'abstracts/fonts';
+
+.contenedor-principal{
+    background: color.$blanco-kuali;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tabla-cafeterias{
+    background-color: color.$cafe-kuali;
+    padding: 1em;
+    width: 100%;
+    height: 3em;
+    color: color.$blanco-kuali;
+    border: 3px solid color.$verde-kuali;
+    border-radius: 0.5em;
+
+    .boton-editar{
+        background-color: red;
+        color: color.$blanco-kuali;
+        border: 3px solid red;
+        border-radius: 0.5em;
+    }
+}
+
+.tabla-cafeterias:hover{
+    background-color: color.$verde-kuali
+}
