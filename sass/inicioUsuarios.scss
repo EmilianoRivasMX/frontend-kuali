@@ -7,9 +7,25 @@
 .contenedor-principal {
     background: color.$blanco-kuali;
 
+    .contenedor-promociones {
+        
+        .contenedor-grid {
+            width: 100%;
+            background: turquoise;
+            display: grid;
+            grid-template-columns: 50% 50%;
+
+            img {
+                width: 100px;
+            }
+        }
+    }
+
     hr {
         width: 98%;
         border-radius: 50px;
         border: 2px solid color.$verde-kuali;
     }
+
+
 }
