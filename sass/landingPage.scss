@@ -1,3 +1,112 @@
-@use 'components/menu';
+@use 'abstracts/fonts';
 @use 'abstracts/colors.scss' as color;
+@use 'components/menu';
 @use 'components/footer';
+
+.contenedor-principal {
+    width: 100%;
+
+    .presentacion {
+
+    }
+     
+    .concepto {
+        background: color.$blanco-kuali;
+    }
+    
+    .contenedor-caracteristicas {
+        background: color.$verde-kuali;
+        width: 100%;
+
+        .encabezado {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo-principal {
+            color: color.$amarillo-kuali;
+        }
+
+        .texto {
+            color: color.$blanco-kuali;
+        }
+
+        .caracteristicas{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .caracteristica {
+
+                i {
+                    background: color.$amarillo-kuali;
+                    border-radius: 50%;
+                    color: color.$cafe-kuali;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+
+    .cafeterias-destacadas {
+        background: color.$blanco-kuali;
+
+        .encabezado {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo-principal {
+            color: color.$verde-kuali;
+        }
+
+        .texto {
+            color: color.$negro-kuali;
+        }
+
+        .cafeterias {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .cafeteria {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    max-width: 300px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 5px;
+                }
+
+                .texto {
+                    width: 300px;
+                    text-align: justify;
+                }
+
+                a {
+                    text-decoration: none;
+                    background: color.$verde-kuali;
+                    color: color.$blanco-kuali;
+                    padding: 15px 30px;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    font-size: 13px;
+                    transition: ease 0.5s;
+                }
+
+                a:hover {
+                    background: color.$azul-kuali;
+                    color: color.$amarillo-kuali;
+                }
+            }
+        }
+    }
+}
