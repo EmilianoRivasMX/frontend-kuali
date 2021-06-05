@@ -19,6 +19,7 @@
         width: 100%;
 
         .encabezado {
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -39,14 +40,36 @@
             justify-content: space-around;
 
             .caracteristica {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
 
                 i {
                     background: color.$amarillo-kuali;
                     border-radius: 50%;
                     color: color.$cafe-kuali;
-                    padding: 20px;
+                    padding: 15px;
+                    margin-right: 10px;
+                }
+
+                .descripcion {
+                    width: 60%;
+
+                    h3 {
+                        color: color.$amarillo-kuali;
+                    }
+
+                    p {
+                        text-align: justify;
+                        color: color.$blanco-kuali;
+                    }
                 }
             }
+
+            // .bottom {
+            //     margin-top: 250px;
+            // }
         }
     }
 
@@ -108,5 +131,5 @@
                 }
             }
         }
-    }
+    } 
 }
