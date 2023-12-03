@@ -1,2 +1,2 @@
 # frontend-kuali
-Kuali es un sistema de reservación y gestión de pedidos que tiene el objetivo de evitar las filas de las cafeterías de la Ciudad de México.
+En este repositorio se encuentra todo el código y documentación relacionada a la UI de Kuali; el sistema de reservación y gestión de pedidos en CDMX.
